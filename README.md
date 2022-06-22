@@ -1,9 +1,9 @@
-# MiSLAS
+# ResCom
 **Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition**
 
 **Authors**: Zhisheng Zhong, Jiequan Cui, Zeming Li, Eric Lo, Jian Sun, and Jiaya Jia
 
-[[`arXiv`](https://arxiv.org/abs/2203.11506]
+[`arXiv`](https://arxiv.org/abs/2203.11506]
 
 <div align="center">
   <img src="./assets/motivation.jpg" style="zoom:90%;"/>
@@ -42,15 +42,15 @@ In this paper, we propose **Re**balanced **S**iamese **Co**ntrastive **M**ining 
 
  ## CIFAR-10-LT
 
-| Method |   Model   | imbalanced factor | Top-1 Acc(%) |     link     | log          |
-| :----: | :-------: | :---------------: | :----------: | :----------: | ------------ |
-| ResCom | ResNet-32 |        100        |     84.9     | [download]() | [download]() |
-| ResCom | ResNet-32 |        50         |     88.0     | [download]() | [download]() |
-| ResCom | ResNet-32 |        10         |     92.0     | [download]() | [download]() |
+| Method |   Model   | imb. factor | Top-1 Acc(%) |     link     | log          |
+| :----: | :-------: | :---------: | :----------: | :----------: | ------------ |
+| ResCom | ResNet-32 |     100     |     84.9     | [download]() | [download]() |
+| ResCom | ResNet-32 |     50      |     88.0     | [download]() | [download]() |
+| ResCom | ResNet-32 |     10      |     92.0     | [download]() | [download]() |
 
  ## CIFAR-100-LT
 
-| Method | Model | imbalanced factor | Top-1 Acc(%) |     link     | log |
+| Method | Model | imb. factor | Top-1 Acc(%) |     link     | log |
 | :---: | :---: | :---: | :---: | :---: | ----- |
 | ResCom | ResNet-32  | 100 | 53.8 | [download]() | [download]() |
 | ResCom | ResNet-32 | 50 | 58.0 | [download]() | [download]() |
