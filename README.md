@@ -12,6 +12,7 @@
 <div align="center">
   <img src="./assets/motivation.jpg" style="zoom:90%;"/>
 </div><br/>
+
 In this paper, we propose **Re**balanced **S**iamese **Co**ntrastive **M**ining (**ResCom**) to tackle imbalanced contrastive recognition. Based on the mathematical analysis and simulation results, we claim that supervised contrastive learning suffers ***a dual class-imbalance problem at both the original batch and Siamese batch levels***, which is more serious than long-tailed classification learning. ResCom contains four modules for better imbalanced learning:
 
 - At the original batch level, we introduce a class-balanced supervised contrastive loss to assign adaptive weights for different classes. 
