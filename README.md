@@ -25,11 +25,11 @@ Imbalanced learning for imbalanced recognition and segmentation, including MiSLA
 ### ResCom
 The repo [./ResCom](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/ResCom) provides ResCom's **trained models**, **trained log**, and **code** for PyTorch.
 ### ResLT
-The repo [./ResLT]() provides ResLT's **trained models**, **trained log**, and **code** for PyTorch.
+The repo [./ResLT](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/ResLT) provides ResLT's **trained models**, **trained log**, and **code** for PyTorch.
 
 ### PaCo
 
-The repo [./PaCo]() provides PaCo's **trained models**, **trained log**, and **code** for PyTorch.
+The repo [./PaCo](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/PaCo) provides PaCo's **trained models**, **trained log**, and **code** for PyTorch.
 
 
 ### MiSLAS
