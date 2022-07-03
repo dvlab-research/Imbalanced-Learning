@@ -1,6 +1,6 @@
 # Imbalanced-Learning
 
-Imbalanced learning for imbalanced recognition and segmentation, including MiSLAS, PaCo, ResLT, RR, and ResCom developed by CUHK, Deep Vision Lab.
+Imbalanced learning for imbalanced recognition and segmentation, including MiSLAS, PaCo, ResLT, RR, and ResCom developed by CUHK, [Deep Vision Lab](https://www.dvlab.ai).
 
 **News**
 
