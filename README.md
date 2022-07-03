@@ -3,6 +3,7 @@
 Imbalanced learning for imbalanced recognition and segmentation, including MiSLAS, PaCo, ResLT, RR, and ResCom developed by CUHK, Deep Vision Lab.
 
 **News**
+
 2022/06 The paper of [ResLT](https://arxiv.org/abs/2206.00272) (ResLT: Residual Learning for Long-Tailed Recognition) is accepted by TPAMI 2022.
 
 2022/04 The paper of [RR](https://arxiv.org/abs/2204.01969) (Region Rebalance for Long-Tailed Semantic Segmentation) is available on arXiv.
@@ -22,7 +23,7 @@ Imbalanced learning for imbalanced recognition and segmentation, including MiSLA
 
 
 ### ResCom
-The repo [./ResCom]() provides ResCom's **trained models**, **trained log**, and **code** for PyTorch.
+The repo [./ResCom](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/ResCom) provides ResCom's **trained models**, **trained log**, and **code** for PyTorch.
 ### ResLT
 The repo [./ResLT]() provides ResLT's **trained models**, **trained log**, and **code** for PyTorch.
 
@@ -32,11 +33,11 @@ The repo [./PaCo]() provides PaCo's **trained models**, **trained log**, and **c
 
 
 ### MiSLAS
-The repo [./MiSLAS]() provides MiSLAS's **trained models**, and **code** for PyTorch.
+The repo [./MiSLAS](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/MiSLAS) provides MiSLAS's **trained models**, and **code** for PyTorch.
 
 
 
-## Imbalanced Segementation
+## Imbalanced Segmentation
 
 ### RR
 - todo
@@ -47,7 +48,11 @@ The repo [./MiSLAS]() provides MiSLAS's **trained models**, and **code** for PyT
 
 Please consider citing our papers in your publications if they help your research. 
 
-If you have any questions, feel free to contact us through email (Zhisheng ZHONG: zszhong@link.cuhk.edu.hk, Jiequan Cui: jqcui@cse.cuhk.edu.hk) or Github issues. Thanks!
+If you have any questions, feel free to contact us through email or Github issues. Thanks!
+
+Jiequan Cui (jqcui@cse.cuhk.edu.hk)
+
+Zhisheng Zhong (zszhong@link.cuhk.edu.hk)
 
 ```
 @article{cui2022reslt,
@@ -64,7 +69,7 @@ If you have any questions, feel free to contact us through email (Zhisheng ZHONG
   year={2022}
 }
 
-@article{zhong2022rebalanced,
+@article{zhong2022rescom,
   title={Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition},
   author={Zhong, Zhisheng and Cui, Jiequan and Lo, Eric and Li, Zeming and Sun, Jian and Jia, Jiaya},
   journal={arXiv preprint arXiv:2203.11506},
