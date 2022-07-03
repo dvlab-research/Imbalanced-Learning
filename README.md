@@ -48,11 +48,9 @@ todo
 
 Please consider citing our papers in your publications if they help your research. 
 
-If you have any questions, feel free to contact us through email or Github issues. Thanks!
+If you have any questions, feel free to contact us through email (Zhisheng Zhong: zszhong@link.cuhk.edu.hk, Jiequan Cui: jqcui@cse.cuhk.edu.hk) or Github issues. Thanks!
 
-Jiequan Cui (jqcui@cse.cuhk.edu.hk)
 
-Zhisheng Zhong (zszhong@link.cuhk.edu.hk)
 
 ```
 @article{cui2022reslt,
