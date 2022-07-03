@@ -1,88 +1,88 @@
-# ResCom
-**Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition**
+# Imbalanced-Learning
 
-**Authors**: Zhisheng Zhong, Jiequan Cui, Zeming Li, Eric Lo, Jian Sun, and Jiaya Jia
+Imbalanced learning for imbalanced recognition and segmentation, including MiSLAS, PaCo, ResLT, RR, and ResCom developed by CUHK, Deep Vision Lab.
 
-[[`arXiv`](https://arxiv.org/abs/2203.11506)]
+**News**
+2022/06 The paper of [ResLT](https://arxiv.org/abs/2206.00272) (ResLT: Residual Learning for Long-Tailed Recognition) is accepted by TPAMI 2022.
 
-## Overview
+2022/04 The paper of [RR](https://arxiv.org/abs/2204.01969) (Region Rebalance for Long-Tailed Semantic Segmentation) is available on arXiv.
 
+2022/03 The paper of [ResCom](https://arxiv.org/abs/2204.01969) (Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition) is available on arXiv.
 
+2021/07 The paper of [PaCo](https://arxiv.org/abs/2107.12028) (Paramateric Contrastive Learning) is accepted by ICCV 2021.
 
-<div align="center">
-  <img src="./assets/motivation.jpg" style="zoom:90%;"/>
-</div><br/>
-
-In this paper, we propose **Re**balanced **S**iamese **Co**ntrastive **M**ining (**ResCom**) to tackle imbalanced contrastive recognition. Based on the mathematical analysis and simulation results, we claim that supervised contrastive learning suffers ***a dual class-imbalance problem at both the original batch and Siamese batch levels***, which is more serious than long-tailed classification learning. ResCom contains four modules for better imbalanced learning:
-
-- At the original batch level, we introduce a class-balanced supervised contrastive loss to assign adaptive weights for different classes. 
-
-- At the Siamese batch level, we present a class-balanced queue, which maintains the same number of keys for all classes.  
-
-- Easy positives and easy negatives will make the contrastive gradient vanish. Supervised hard positive and negative pairs mining  picks up informative pairs for contrastive computation and improve representation learning. 
-
-- To approximately maximize the mutual information between the two views, Siamese Balanced Softmax is proposed and can be jointly trained with the contrastive loss in one-stage.
-
-Extensive experiments demonstrate that ***ResCom improves robustness and generalization and outperforms the previous methods by large margins*** on multiple long-tailed recognition benchmarks. 
-
-<div align="center">
-  <img src="./assets/method.jpg" style="zoom:90%;"/>
-</div><br/>
+2021/03 The paper of [MiSLAS](https://arxiv.org/abs/2104.00466) (Improving Calibration for Long-Tailed Recognition) is accepted by CVPR 2021.
 
 
-## Results and Models
-### ImageNet-LT
-
-| Method | Backbone | Top-1 Acc(%) | Checkpoint | Log |
-| :---: | :---: | :---: | :---: | :---: |
-| ResCom | ResNet-50   | 58.7 | [download]() | [download]() |
-| ResCom + LAS | ResNet-50  |     59.2     | [download]() | [download]() |
-| ResCom | ResNeXt-50 | 59.2 | [download]() | [download]() |
-| ResCom + LAS | ResNeXt-50 | 59.5 | [download]() | [download]() |
-
-### iNaturalist 2018 
-
-| Method | Backbone | Top-1 Acc(%) | Checkpoint | Log |
-| :---: | :---: | :---: | :---: | :---: |
-| ResCom | ResNet-50   | 75.2 | [download]() | [download]() |
-
-### CIFAR-10-LT
-
-| Method | Backbone  | imb. factor | Top-1 Acc(%) |  Checkpoint  |     Log      |
-| :----: | :-------: | :---------: | :----------: | :----------: | :----------: |
-| ResCom | ResNet-32 |     100     |     84.9     | [download]() | [download]() |
-| ResCom | ResNet-32 |     50      |     88.0     | [download]() | [download]() |
-| ResCom | ResNet-32 |     10      |     92.0     | [download]() | [download]() |
-
-### CIFAR-100-LT
-
-| Method | Backbone | imb. factor | Top-1 Acc(%) |     Checkpoint     | Log |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| ResCom | ResNet-32  | 100 | 53.8 | [download]() | [download]() |
-| ResCom | ResNet-32 | 50 | 58.0 | [download]() | [download]() |
-| ResCom | ResNet-32 | 10 | 66.1 | [download]() | [download]() |
+---
 
 
 
-Please consider citing ResCom in your publications if it helps your research. :)
+## Imbalanced Recognition
 
+
+### ResCom
+The repo [./ResCom]() provides ResCom's **trained models**, **trained log**, and **code** for PyTorch.
+### ResLT
+The repo [./ResLT]() provides ResLT's **trained models**, **trained log**, and **code** for PyTorch.
+
+### PaCo
+
+The repo [./PaCo]() provides PaCo's **trained models**, **trained log**, and **code** for PyTorch.
+
+
+### MiSLAS
+The repo [./MiSLAS]() provides MiSLAS's **trained models**, and **code** for PyTorch.
+
+
+
+## Imbalanced Segementation
+
+### RR
+- todo
+
+
+
+## Citation
+
+Please consider citing our papers in your publications if they help your research. 
+
+If you have any questions, feel free to contact us through email (Zhisheng ZHONG: zszhong@link.cuhk.edu.hk, Jiequan Cui: jqcui@cse.cuhk.edu.hk) or Github issues. Thanks!
 
 ```
+@article{cui2022reslt,
+  title={ResLT: Residual Learning for Long-Tailed Recognition},
+  author={Cui, Jiequan and Liu, Shu and Tian, Zhuotao and Zhong, Zhisheng and Jia, Jiaya},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  year={2022},
+}
+
+@article{cui2022region,
+  title={Region Rebalance for Long-Tailed Semantic Segmentation},
+  author={Cui, Jiequan and Yuan, Yuhui and Zhong, Zhisheng and Tian, Zhuotao and Hu, Han and Lin, Stephen and Jia, Jiaya},
+  journal={arXiv preprint arXiv:2204.01969},
+  year={2022}
+}
+
 @article{zhong2022rebalanced,
   title={Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition},
   author={Zhong, Zhisheng and Cui, Jiequan and Lo, Eric and Li, Zeming and Sun, Jian and Jia, Jiaya},
   journal={arXiv preprint arXiv:2203.11506},
   year={2022}
 }
+
+@inproceedings{cui2021parametric,
+    title={Parametric Contrastive Learning}, 
+    author={Jiequan Cui and Zhisheng Zhong and Shu Liu and Bei Yu and Jiaya Jia},
+    booktitle={IEEEinternational Conference on Computer Vision(ICCV)},
+    year={2021},
+}
+
+@inproceedings{zhong2021mislas,
+    title={Improving Calibration for Long-Tailed Recognition},
+    author={Zhisheng Zhong, Jiequan Cui, Shu Liu, and Jiaya Jia},
+    booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2021},
+}
 ```
 
-
-
-
-
-# Contact
-If you have any questions, feel free to contact us through email (Zhisheng ZHONG: zszhong@link.cuhk.edu.hk) or Github issues. Thanks!
-
- 
-
- 
