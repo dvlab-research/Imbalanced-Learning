@@ -60,7 +60,7 @@ If you have any questions, feel free to contact us through email or Github issue
   year={2022},
 }
 
-@article{cui2022region,
+@article{cui2022rr,
   title={Region Rebalance for Long-Tailed Semantic Segmentation},
   author={Cui, Jiequan and Yuan, Yuhui and Zhong, Zhisheng and Tian, Zhuotao and Hu, Han and Lin, Stephen and Jia, Jiaya},
   journal={arXiv preprint arXiv:2204.01969},
