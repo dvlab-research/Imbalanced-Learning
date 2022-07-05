@@ -21,8 +21,8 @@ Imbalanced learning for imbalanced recognition and segmentation, including MiSLA
 
 ## Imbalanced Recognition
 
-
 ### ResCom
+
 The repo [./ResCom](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/ResCom) provides ResCom's **trained models**, **trained log**, and **code** for PyTorch.
 ### ResLT
 The repo [./ResLT](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/ResLT) provides ResLT's **trained models**, **trained log**, and **code** for PyTorch.
@@ -48,7 +48,7 @@ todo
 
 Please consider citing our papers in your publications if they help your research. 
 
-If you have any questions, feel free to contact us through email (Zhisheng Zhong: zszhong@link.cuhk.edu.hk, Jiequan Cui: jqcui@cse.cuhk.edu.hk) or Github issues. Thanks!
+If you have any questions, feel free to contact us through email or Github issues. Thanks!
 
 
 
@@ -60,7 +60,7 @@ If you have any questions, feel free to contact us through email (Zhisheng Zhong
   year={2022},
 }
 
-@article{cui2022region,
+@article{cui2022rr,
   title={Region Rebalance for Long-Tailed Semantic Segmentation},
   author={Cui, Jiequan and Yuan, Yuhui and Zhong, Zhisheng and Tian, Zhuotao and Hu, Han and Lin, Stephen and Jia, Jiaya},
   journal={arXiv preprint arXiv:2204.01969},
