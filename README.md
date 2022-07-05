@@ -8,7 +8,7 @@ Imbalanced learning for imbalanced recognition and segmentation, including MiSLA
 
 - 2022/04 The paper of [RR](https://arxiv.org/abs/2204.01969) (Region Rebalance for Long-Tailed Semantic Segmentation) is available on arXiv.
 
-- 2022/03 The paper of [ResCom](https://arxiv.org/abs/2204.01969) (Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition) is available on arXiv.
+- 2022/03 The paper of [ResCom](https://arxiv.org/abs/2203.11506) (Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition) is available on arXiv.
 
 - 2021/07 The paper of [PaCo](https://arxiv.org/abs/2107.12028) (Paramateric Contrastive Learning) is accepted by ICCV 2021.
 
