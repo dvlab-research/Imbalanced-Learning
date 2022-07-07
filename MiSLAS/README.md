@@ -41,6 +41,8 @@ pip install -r requirements.txt
 
 Change the `data_path` in `config/*/*.yaml` accordingly.
 
+The data list texts for ImageNet-LT, iNaturalist 2018, and Places-LT can be download through this [link](https://drive.google.com/file/d/196V4HmGZFcooGa841zJgDP4qVndbwtkX/view?usp=sharing).
+
 ## Training
 
 **Stage-1**:
