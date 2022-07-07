@@ -4,6 +4,8 @@ Imbalanced learning for imbalanced recognition and segmentation, including MiSLA
 
 **News**
 
+- 2022/07 The code of [ResCom](https://arxiv.org/abs/2203.11506) has been released!
+
 - 2022/06 The paper of [ResLT](https://arxiv.org/abs/2101.10633) (ResLT: Residual Learning for Long-Tailed Recognition) is accepted by TPAMI 2022.
 
 - 2022/04 The paper of [RR](https://arxiv.org/abs/2204.01969) (Region Rebalance for Long-Tailed Semantic Segmentation) is available on arXiv.
