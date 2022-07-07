@@ -132,7 +132,7 @@ python main_rescom.py --cfg ./config/DATASETNAME_xxxx.yaml resume /path/to/check
 
  ###  mCE, NmCE, and Corruption Severity Results on ImageNet-C
 
-<div align="center">
+<div align="left">
   <img src="./assets/corruption_imagenetc.jpg" width="400" />
 </div><br/>
 
