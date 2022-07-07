@@ -5,6 +5,8 @@
 
 [[`arXiv`](https://arxiv.org/abs/2203.11506)]
 
+
+
 ## Overview
 
 
@@ -30,8 +32,64 @@ Extensive experiments demonstrate that ***ResCom improves robustness and general
 </div><br/>
 
 
-## Results and Models
-### ImageNet-LT
+## Dependence
+
+**Requirements**
+
+* torchvision 0.8.0
+* Pytorch 1.8.0
+* yacs 0.1.8
+
+**Dataset Preparation**
+
+* [CIFAR-10 & CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)
+* [ImageNet](http://image-net.org/index)
+* [iNaturalist 2018](https://github.com/visipedia/inat_comp/tree/master/2018)
+* [Places](http://places2.csail.mit.edu/download.html)
+
+Change the `data_path` in `config/*.yaml` accordingly.
+
+The data list texts for ImageNet-LT, iNaturalist 2018, and Places-LT can be download through this [link](https://drive.google.com/file/d/196V4HmGZFcooGa841zJgDP4qVndbwtkX/view?usp=sharing).
+
+
+
+## Training
+
+To train a ResCom model,  run:
+
+```
+python main_rescom.py --cfg ./config/DATASETNAME_xxxx.yaml
+```
+
+The saved folder (including logs and checkpoints) is organized as follows.
+
+```
+ResCom
+├── saved
+│   ├── xxxxxx_xxxxxx
+│   │   ├── ckps
+│   │   │   ├── current.pth.tar
+│   │   │   └── model_best.pth.tar
+│   │   └── logs
+│   │       └── xxxxxx_xxxxxx.log
+│   ...   
+```
+
+
+
+## Evaluation
+
+To evaluate a trained ResCom model, run:
+
+```
+python main_rescom.py --cfg ./config/DATASETNAME_xxxx.yaml resume /path/to/checkpoint evaluate True
+```
+
+
+
+## Recognition Performances and Models
+
+### ImageNet-LT (Orthogonality to Multi-stage Methods)
 
 | Method | Backbone | Top-1 Acc(%) | Checkpoint | Log |
 | :---: | :---: | :---: | :---: | :---: |
@@ -64,6 +122,38 @@ Extensive experiments demonstrate that ***ResCom improves robustness and general
 
 
 
+## Robustness and Generalization
+
+### Positives Similarity Distribution
+
+<div align="center">
+  <img src="./assets/pos_sim_dist.jpg" style="zoom:90%;"/>
+</div><br/>
+
+ ###  mCE, NmCE, and Corruption Severity Results on ImageNet-C
+
+<div align="center">
+  <img src="./assets/corruption_imagenetc.jpg" style="zoom:40%;"/>
+</div><br/>
+
+|          Method           | Top-1 Acc(%) |   mCE    |   NmCE   |
+| :-----------------------: | :----------: | :------: | :------: |
+|  MoCo + Balanced Softmax  |     55.7     |   71.4   |   91.4   |
+| SupCon + Balanced Softmax |     56.5     |   71.1   |   91.2   |
+|          ResCom           |   **58.7**   | **69.4** | **89.2** |
+
+
+
+### t-SNE Visualization of Representation Learning
+
+<div align="center">
+  <img src="./assets/tsne_vis.jpg" style="zoom:90%;"/>
+</div><br/>
+
+
+
+## Citation
+
 Please consider citing ResCom in your publications if it helps your research. :)
 
 
@@ -78,9 +168,8 @@ Please consider citing ResCom in your publications if it helps your research. :)
 
 
 
-
-
 # Contact
+
 If you have any questions, feel free to contact us through email (Zhisheng ZHONG: zszhong@link.cuhk.edu.hk) or Github issues. Thanks!
 
  

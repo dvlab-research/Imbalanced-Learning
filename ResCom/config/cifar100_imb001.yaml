@@ -1,0 +1,23 @@
+mark: 'cifar100_imb001'
+imb_factor: 0.01
+
+dataset: cifar100
+num_classes: 100
+data_dir: '~/cifar_data/'
+workers: 0
+
+arch: 'resnet32'
+dim_feat: 64
+dim_con: 32
+
+batch_size: 128
+epochs: 400
+start_eval_epoch: 1
+print_freq: 40
+lr: 0.1
+con_weight: 0.5
+queue_size_per_cls: 10
+select_num_pos: 1
+select_num_neg: 400
+effective_num_beta: 0.999999
+temperature: 0.2
