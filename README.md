@@ -76,7 +76,7 @@ If you have any questions, feel free to contact us through email or Github issue
   year={2022}
 }
 
-@inproceedings{cui2021parametric,
+@inproceedings{cui2021paco,
     title={Parametric Contrastive Learning}, 
     author={Jiequan Cui and Zhisheng Zhong and Shu Liu and Bei Yu and Jiaya Jia},
     booktitle={IEEEinternational Conference on Computer Vision(ICCV)},

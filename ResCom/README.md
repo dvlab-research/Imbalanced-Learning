@@ -37,8 +37,9 @@ Extensive experiments demonstrate that ***ResCom improves robustness and general
 **Requirements**
 
 * torchvision 0.8.0
-* Pytorch 1.8.0
+* PyTorch 1.8.0
 * yacs 0.1.8
+* 8 Nvidia GeForce 2080Ti GPUs
 
 **Dataset Preparation**
 
@@ -55,7 +56,7 @@ The data list texts for ImageNet-LT, iNaturalist 2018, and Places-LT can be down
 
 ## Training
 
-To train a ResCom model,  run:
+To train a ResCom model,  run (**single GPU for CIFAR-LT, 8 GPUs for ImageNet-LT, iNaturalist 2018, and Places-LT**):
 
 ```
 python main_rescom.py --cfg ./config/DATASETNAME_xxxx.yaml
@@ -82,7 +83,7 @@ ResCom
 To evaluate a trained ResCom model, run:
 
 ```
-python main_rescom.py --cfg ./config/DATASETNAME_xxxx.yaml resume /path/to/checkpoint evaluate True
+python main_rescom.py --cfg ./config/DATASETNAME_xxxx.yaml resume /path/to/the/checkpoint evaluate True
 ```
 
 
@@ -158,7 +159,7 @@ Please consider citing ResCom in your publications if it helps your research. :)
 
 
 ```
-@article{zhong2022rebalanced,
+@article{zhong2022rescom,
   title={Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition},
   author={Zhong, Zhisheng and Cui, Jiequan and Lo, Eric and Li, Zeming and Sun, Jian and Jia, Jiaya},
   journal={arXiv preprint arXiv:2203.11506},
