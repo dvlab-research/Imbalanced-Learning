@@ -47,7 +47,7 @@ Extensive experiments demonstrate that ***ResCom improves robustness and general
 * [iNaturalist 2018](https://github.com/visipedia/inat_comp/tree/master/2018)
 * [Places](http://places2.csail.mit.edu/download.html)
 
-Change the `data_path` in `config/*.yaml` accordingly.
+Change the `data_dir`,  `train_txt_path`, and `val_txt_path` in `config/*.yaml` accordingly.
 
 The data list texts for ImageNet-LT, iNaturalist 2018, and Places-LT can be download through this [link](https://drive.google.com/file/d/196V4HmGZFcooGa841zJgDP4qVndbwtkX/view?usp=sharing).
 
