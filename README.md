@@ -3,9 +3,9 @@
 Imbalanced learning for imbalanced recognition and segmentation, including MiSLAS, PaCo, ResLT, RR, and ResCom developed by CUHK, [Deep Vision Lab](https://www.dvlab.ai).
 
 **News**
-- 2023/05 The paper of [GPaCo](https://arxiv.org/abs/2203.11506) (Generalized Parametric Contrastive Learning) is accepted by TPAMI 2023.
+- 2023/05 The paper of [GPaCo](https://arxiv.org/pdf/2209.12400.pdf) (Generalized Parametric Contrastive Learning) is accepted by TPAMI 2023.
 
-- 2023/02 The paper of [CeCo](https://arxiv.org/abs/2203.11506) (Understanding Imbalanced Semantic Segmentation Through Neural Collaps) is accepted by CVPR 2023.
+- 2023/02 The paper of [CeCo](https://arxiv.org/pdf/2301.01100.pdf) (Understanding Imbalanced Semantic Segmentation Through Neural Collaps) is accepted by CVPR 2023.
 
 - 2022/07 The code of [ResCom](https://arxiv.org/abs/2203.11506) has been released!
 
