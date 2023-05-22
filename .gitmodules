@@ -4,3 +4,6 @@
 [submodule "ResLT"]
 	path = ResLT
 	url = https://github.com/jiequancui/ResLT
+[submodule "MiSLAS"]
+	path = MiSLAS
+	url = https://github.com/dvlab-research/MiSLAS
