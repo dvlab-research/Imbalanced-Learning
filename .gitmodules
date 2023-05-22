@@ -1,3 +1,6 @@
 [submodule "Parametric-Contrastive-Learning"]
 	path = Parametric-Contrastive-Learning
 	url = https://github.com/dvlab-research/Parametric-Contrastive-Learning
+[submodule "ResLT"]
+	path = ResLT
+	url = https://github.com/jiequancui/ResLT
