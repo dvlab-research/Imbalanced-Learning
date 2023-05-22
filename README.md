@@ -3,6 +3,9 @@
 Imbalanced learning for imbalanced recognition and segmentation, including MiSLAS, PaCo, ResLT, RR, and ResCom developed by CUHK, [Deep Vision Lab](https://www.dvlab.ai).
 
 **News**
+- 2023/05 The paper of [GPaCo](https://arxiv.org/abs/2203.11506) (Generalized Parametric Contrastive Learning) is accepted by TPAMI 2023.
+
+- 2023/02 The paper of [CeCo](https://arxiv.org/abs/2203.11506) (Understanding Imbalanced Semantic Segmentation Through Neural Collaps) is accepted by CVPR 2023.
 
 - 2022/07 The code of [ResCom](https://arxiv.org/abs/2203.11506) has been released!
 
@@ -29,9 +32,9 @@ The repo [./ResCom](https://github.com/dvlab-research/Imbalanced-Learning/tree/m
 ### ResLT
 The repo [./ResLT](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/ResLT) provides ResLT's **trained models**, **trained log**, and **code** for PyTorch.
 
-### PaCo
+### PaCo/GPaCo/RR
 
-The repo [./PaCo](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/PaCo) provides PaCo's **trained models**, **trained log**, and **code** for PyTorch.
+The repo [./Parametric Contrastive Learning](https://github.com/dvlab-research/Imbalanced-Learning/tree/main/PaCo) provides code and models for **PaCo**, **GPaCo**, and **RR**.
 
 
 ### MiSLAS
@@ -41,7 +44,7 @@ The repo [./MiSLAS](https://github.com/dvlab-research/Imbalanced-Learning/tree/m
 
 ## Imbalanced Segmentation
 
-### RR
+### RR && CeCo
 todo
 
 
@@ -55,6 +58,13 @@ If you have any questions, feel free to contact us through email or Github issue
 
 
 ```
+@article{cui2022generalized,
+  title={Generalized Parametric Contrastive Learning},
+  author={Cui, Jiequan and Zhong, Zhisheng and Tian, Zhuotao and Liu, Shu and Yu, Bei and Jia, Jiaya},
+  journal={arXiv preprint arXiv:2209.12400},
+  year={2022}
+}
+
 @article{cui2022reslt,
   title={ResLT: Residual Learning for Long-Tailed Recognition},
   author={Cui, Jiequan and Liu, Shu and Tian, Zhuotao and Zhong, Zhisheng and Jia, Jiaya},
