@@ -1,6 +1,6 @@
 # Imbalanced-Learning
 
-Imbalanced learning for imbalanced recognition and segmentation, including MiSLAS, PaCo, ResLT, RR, and ResCom developed by CUHK, [Deep Vision Lab](https://www.dvlab.ai).
+Imbalanced learning for imbalanced recognition and segmentation, including **MiSLAS**, **PaCo**, **ResLT**, **RR**, **ResCom**, *CeCo*, and **GPaCo** developed by CUHK, [Deep Vision Lab](https://www.dvlab.ai).
 
 **News**
 - 2023/05 The paper of [GPaCo](https://arxiv.org/pdf/2209.12400.pdf) (Generalized Parametric Contrastive Learning) is accepted by TPAMI 2023.
