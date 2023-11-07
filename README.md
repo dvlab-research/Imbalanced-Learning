@@ -69,19 +69,25 @@ If you have any questions, feel free to contact us through email or Github issue
   doi={10.1109/TPAMI.2023.3278694}}
 
 
-@article{cui2022reslt,
-  title={ResLT: Residual Learning for Long-Tailed Recognition},
+@ARTICLE{9774921,
   author={Cui, Jiequan and Liu, Shu and Tian, Zhuotao and Zhong, Zhisheng and Jia, Jiaya},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
-  year={2022},
-}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={ResLT: Residual Learning for Long-Tailed Recognition}, 
+  year={2023},
+  volume={45},
+  number={3},
+  pages={3695-3706},
+  doi={10.1109/TPAMI.2022.3174892}
+  }
 
-@article{cui2022rr,
+
+@article{cui2022region,
   title={Region Rebalance for Long-Tailed Semantic Segmentation},
   author={Cui, Jiequan and Yuan, Yuhui and Zhong, Zhisheng and Tian, Zhuotao and Hu, Han and Lin, Stephen and Jia, Jiaya},
   journal={arXiv preprint arXiv:2204.01969},
   year={2022}
-}
+  }
+  
 
 @article{zhong2022rescom,
   title={Rebalanced Siamese Contrastive Mining for Long-Tailed Recognition},
@@ -90,18 +96,21 @@ If you have any questions, feel free to contact us through email or Github issue
   year={2022}
 }
 
-@inproceedings{cui2021paco,
-    title={Parametric Contrastive Learning}, 
-    author={Jiequan Cui and Zhisheng Zhong and Shu Liu and Bei Yu and Jiaya Jia},
-    booktitle={IEEEinternational Conference on Computer Vision(ICCV)},
-    year={2021},
+@inproceedings{cui2021parametric,
+  title={Parametric contrastive learning},
+  author={Cui, Jiequan and Zhong, Zhisheng and Liu, Shu and Yu, Bei and Jia, Jiaya},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  pages={715--724},
+  year={2021}
 }
 
-@inproceedings{zhong2021mislas,
-    title={Improving Calibration for Long-Tailed Recognition},
-    author={Zhisheng Zhong, Jiequan Cui, Shu Liu, and Jiaya Jia},
-    booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year={2021},
+@inproceedings{zhong2021improving,
+  title={Improving calibration for long-tailed recognition},
+  author={Zhong, Zhisheng and Cui, Jiequan and Liu, Shu and Jia, Jiaya},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={16489--16498},
+  year={2021}
 }
+
 ```
 
